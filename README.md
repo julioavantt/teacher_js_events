@@ -1,5 +1,5 @@
 
-# Eventos
+# Eventos en Javascript
 
 Algunos ejemplos educativos de eventos.
 
