@@ -8,3 +8,7 @@ Algunos ejemplos educativos de eventos.
 
 - [@julioavantt](https://www.github.com/julioavantt)
 
+## Linkedin
+
+- [@julioavantt](https://linkedin.com/ln/julioavantt)
+
