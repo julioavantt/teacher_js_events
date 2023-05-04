@@ -10,5 +10,5 @@ Algunos ejemplos educativos de eventos.
 
 ## Linkedin
 
-- [@julioavantt](https://linkedin.com/ln/julioavantt)
+- [@julioavantt](https://linkedin.com/ln/julio-avantt)
 
