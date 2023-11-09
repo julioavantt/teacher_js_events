@@ -1,13 +1,14 @@
-<button onclick="alert('ME HICISTE CASO JEJE')">Aprietame!</button>
-<button onclick="paintOrNot()">PAINT IT BLACK!, bah no me decido</button>
-<script>
-  function paintOrNot() {
-    if (document.body.style.backgroundColor === "black") {
-      document.body.style.backgroundColor = "white";
-    } else {
-      document.body.style.backgroundColor = "black";
+<body style="border-radius: 4px">
+  <button onclick="alert('ME HICISTE CASO JEJE')">Aprietame!</button>
+  <button onclick="paintOrNot()">PAINT IT BLACK!, bah no me decido</button>
+  <script>
+    function paintOrNot() {
+      console.log("Estilos del body", document.body.style);
+      if (document.body.style.backgroundColor === "black") {
+        document.body.style.backgroundColor = "white";
+      } else {
+        document.body.style.backgroundColor = "black";
+      }
     }
-  }
-
-  document.body.onwheel = () => alert("TE VI SCROLLEAR!!");
-</script>
+  </script>
+</body>

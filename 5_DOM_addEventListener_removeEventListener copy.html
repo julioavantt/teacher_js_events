@@ -1,0 +1,17 @@
+<body>
+  <button>ELIMINAR INPUT</button>
+  <input />
+</body>
+<script>
+  let button = document.querySelector("button");
+  button.addEventListener("click", deleteInput);
+
+  function deleteInput() {
+    let input = document.querySelector("input");
+    input?.remove();
+    //null.remove();
+    console.log(input);
+    //button.removeEventListener("click", deleteInput);
+    alert("REMOVÍ EL INPUT Y EL EVENTO, NO SE VOLVERÁ A EJECUTAR");
+  }
+</script>
