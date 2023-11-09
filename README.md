@@ -48,7 +48,7 @@
 - [React Custom Hooks](https://github.com/julioavantt/teacher_react_custom_hooks)
 - [React Router Dom](https://github.com/julioavantt/teacher_react_router_dom)
 - [Javascript Events](https://github.com/julioavantt/teacher_js_events)
-- [React Events](https://github.com/julioavantt/teacher_react_router_dom)
+- [React Events](https://github.com/julioavantt/teacher_react_events)
   <br>
 
 ## ⚙️ &nbsp;GitHub Analytics
