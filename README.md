@@ -11,45 +11,21 @@
 
 ## Sobre mi
 
-- ⭐ Programo desde hace 14 años.
-- 📲 Me especializo en Frontend.
-- 🎥 Enseño en Coderhouse los cursos de React Js, Javascript y Desarrollo Web.
-- ✏️ Cree cursos, fui profesor e hice mentorías en Alkemy, Digital House, Rolling Code, Educación IT, Guayerd, BlockAcademy.
-- 🧑‍🏫 Creador de [Junior Pride](https://www.youtube.com/@juniorpride)
-  <br>
+-  ⭐ Programo desde hace 14 años.
+-  📲 Me especializo en Frontend.
+-  🎥 Enseño en Coderhouse los cursos de React Js, Javascript y Desarrollo Web.
+-  ✏️ Cree cursos, fui profesor e hice mentorías en Alkemy, Digital House, Rolling Code, Educación IT, Guayerd, BlockAcademy.
+-  🧑‍🏫 Creador de [Junior Pride](https://www.youtube.com/@juniorpride)
+   <br>
 
 ## Este repo trata sobre: Eventos en Javascript.
 
-- Esta aplicación está creada con Create React App.
-- Clonarla ejecutando git clone https://github.com/julioavantt/teacher_js_events.git
-- Ir a cada archivo y ejecutar Go live (barra inferior a la derecha de Visual Studio Code), si no aparece instalar extensión Live Preview.
-- Abrir la consola de dev tools.
+-  Esta aplicación está creada con Create React App.
+-  Clonarla ejecutando git clone https://github.com/julioavantt/teacher_js_events.git
+-  Ir a cada archivo y ejecutar Go live (barra inferior a la derecha de Visual Studio Code), si no aparece instalar extensión Live Preview.
+-  Abrir la consola de dev tools.
 
 <br>
-
-## Repos y videos útiles.
-
-- [Cómo instalar Vite](https://www.youtube.com/watch?v=jcKoP-FvPsY&ab_channel=JuniorPride)
-- [React createElement](https://github.com/julioavantt/teacher_react_create_element)
-- [React JSX](https://github.com/julioavantt/teacher_react_jsx_basic)
-- [React components](https://github.com/julioavantt/teacher_react_components)
-- [React children](https://github.com/julioavantt/teacher_react_children)
-- [React useRef](https://github.com/julioavantt/teacher_react_useref)
-- [Javascript efectos secundarios](https://github.com/julioavantt/teacher_js_side_effects)
-- [React useEffect](https://github.com/julioavantt/teacher_react_useeffect)
-- [Javascript Promises](https://github.com/julioavantt/teacher_js_promises)
-- [Javascript .map](https://github.com/julioavantt/teacher_js_map)
-- [React .map](https://github.com/julioavantt/teacher_react_map)
-- [Javascript .fetch](https://github.com/julioavantt/teacher_js_fetch)
-- [React .fetch](https://github.com/julioavantt/teacher_react_fetch)
-- [React HOCs](https://github.com/julioavantt/teacher_react_hocs)
-- [React Render Props básico](https://github.com/julioavantt/teacher_react_render_props_basic)
-- [React Render Props](https://github.com/julioavantt/teacher_render_props)
-- [React Custom Hooks](https://github.com/julioavantt/teacher_react_custom_hooks)
-- [React Router Dom](https://github.com/julioavantt/teacher_react_router_dom)
-- [Javascript Events](https://github.com/julioavantt/teacher_js_events)
-- [React Events](https://github.com/julioavantt/teacher_react_events)
-  <br>
 
 ## ⚙️ &nbsp;GitHub Analytics
 

@@ -1,80 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      button {
-        appearance: button;
-        background-color: #1899d6;
-        border: solid transparent;
-        border-radius: 16px;
-        border-width: 0 0 20px;
-        box-sizing: border-box;
-        color: #ffffff;
-        cursor: pointer;
-        display: inline-block;
-        font-family: din-round, sans-serif;
-        font-size: 80px;
-        font-weight: 700;
-        letter-spacing: 0.8px;
-        line-height: 20px;
-        margin: 0;
-        outline: none;
-        overflow: visible;
-        padding: 93px 16px;
-        text-align: center;
-        text-transform: uppercase;
-        touch-action: manipulation;
-        transform: translateZ(0);
-        transition: filter 0.2s;
-        user-select: none;
-        -webkit-user-select: none;
-        vertical-align: middle;
-        white-space: nowrap;
-        width: 100%;
-      }
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<style>
+			button {
+				appearance: button;
+				background-color: #1899d6;
+				border: solid transparent;
+				border-radius: 16px;
+				border-width: 0 0 20px;
+				box-sizing: border-box;
+				color: #ffffff;
+				cursor: pointer;
+				display: inline-block;
+				font-family: din-round, sans-serif;
+				font-size: 80px;
+				font-weight: 700;
+				letter-spacing: 0.8px;
+				line-height: 20px;
+				margin: 0;
+				outline: none;
+				overflow: visible;
+				padding: 93px 16px;
+				text-align: center;
+				text-transform: uppercase;
+				touch-action: manipulation;
+				transform: translateZ(0);
+				transition: filter 0.2s;
+				user-select: none;
+				-webkit-user-select: none;
+				vertical-align: middle;
+				white-space: nowrap;
+				width: 100%;
+			}
 
-      button:after {
-        background-clip: padding-box;
-        background-color: #1cb0f6;
-        border: solid transparent;
-        border-radius: 16px;
-        border-width: 0 0 4px;
-        bottom: -4px;
-        content: "";
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
-        z-index: -1;
-      }
+			button:after {
+				background-clip: padding-box;
+				background-color: #1cb0f6;
+				border: solid transparent;
+				border-radius: 16px;
+				border-width: 0 0 4px;
+				bottom: -4px;
+				content: "";
+				left: 0;
+				position: absolute;
+				right: 0;
+				top: 0;
+				z-index: -1;
+			}
 
-      button:main,
-      button:focus {
-        user-select: auto;
-      }
+			button:main,
+			button:focus {
+				user-select: auto;
+			}
 
-      button:hover:not(:disabled) {
-        filter: brightness(1.1);
-        -webkit-filter: brightness(1.1);
-      }
+			button:hover:not(:disabled) {
+				filter: brightness(1.1);
+				-webkit-filter: brightness(1.1);
+			}
 
-      button:disabled {
-        cursor: auto;
-      }
-    </style>
-  </head>
-  <body>
-    <button>ADHERIME EL LISTENER!</button>
-    <script>
-      let button = document.querySelector("button");
+			button:disabled {
+				cursor: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<button type="button">ADHERIME EL LISTENER!</button>
+		<input />
+		<script>
+			let button = document.querySelector("button")
+			let input = document.querySelector("input")
 
-      button.addEventListener("click", (event) => {
-        console.log(event);
-        alert("GRACIAS");
-      });
-    </script>
-  </body>
+			const clickeando = evt => {
+				console.log(evt)
+				alert("GRACIAS")
+			}
+
+			const cambiando = event => {
+				console.log(event.target.value)
+			}
+
+			button.addEventListener("click", clickeando)
+			input.addEventListener("change", cambiando)
+		</script>
+	</body>
 </html>
